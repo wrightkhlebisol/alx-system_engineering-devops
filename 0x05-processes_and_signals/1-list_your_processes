@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # List your prcesses
 
-ps aux
+ps -aux
