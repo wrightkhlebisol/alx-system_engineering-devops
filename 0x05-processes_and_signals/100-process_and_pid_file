@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # Why you no love me
-trap 'echo "I hate the kill command"' SIGTERM
+trap 'echo "I hate the kill command"; rm -f /var/run/myscript.pid; kill -9 $$;' SIGTERM
 trap 'echo "Y U no love me?!"' SIGINT
-trap 'rm -f /var/run/myscript.pid' SIGQUIT
+trap 'rm -f /var/run/myscript.pid; kill -9 $$' SIGQUIT
 
 echo $$ > '/var/run/myscript.pid'
 
