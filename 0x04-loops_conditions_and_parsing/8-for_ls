@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 # For ls
+# shellcheck disable=SC2045
 
-for file in `ls`
+for file in $(ls)
 do
-echo $file | cut -d "-" -f2 -
+echo "$file" | cut -d "-" -f2 -
 done
