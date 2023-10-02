@@ -1,0 +1,28 @@
+#!/usr/bin/env bash
+# Manages manage_my_process
+
+arg_len=$#
+process_pid_dir="/var/run/my_process.pid"
+process_to_manage="manage_my_process"
+
+if [ "$arg_len" -lt 1 ]
+then
+echo "Usage: manage_my_process {start|stop|restart}"
+else
+	if [ "$1" = "start" ]
+	then
+		touch $process_pid_dir
+		exec $process_to_manage start
+		echo "manage_my_process started"
+	elif [ "$1" = "stop" ]
+	then
+		rm -f $process_pid_dir
+		$process_to_manage stop
+		echo "manage_my_process stopped"
+	elif [ "$1" = "restart" ]
+	then
+		rm -f $process_pid_dir
+		$process_to_manage restart
+		echo "manage_my_process restarted"
+	fi
+fi
