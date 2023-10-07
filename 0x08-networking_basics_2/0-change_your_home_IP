@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# Change home IP
+
+host_path="/private/etc/hosts"
+backup_path="$HOME/hosts-$RANDOM.bak"
+
+# Create copy of current host file
+cp $host_path $backup_path
+
+# write to a new file to be copied into host file
+printf "127.0.0.2\tlocalhost\n" > $host_path
+printf "8.8.8.8\t\tfacebook.com" >> $host_path
