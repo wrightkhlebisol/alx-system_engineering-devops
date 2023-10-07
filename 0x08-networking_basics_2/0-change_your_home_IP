@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 # Change home IP
 # shellcheck disable=SC2086
-host_path="/private/etc/hosts"
+
+host_path="/etc/hosts"
 backup_path="$HOME/hosts-$RANDOM.bak"
 
 # Create copy of current host file
