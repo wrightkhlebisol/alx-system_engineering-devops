@@ -1,0 +1,666 @@
+Active Internet connections
+Proto Recv-Q Send-Q  Local Address          Foreign Address        (state)    
+tcp4       0      0  192.168.1.15.55260     ec2-34-237-73-95.https ESTABLISHED
+tcp4       0      0  192.168.1.15.55154     wh-in-f108.1e100.imaps ESTABLISHED
+tcp4       0      0  192.168.1.15.55123     17.42.251.56.imaps     ESTABLISHED
+tcp4       0      0  192.168.1.15.55010     104.18.39.102.https    ESTABLISHED
+tcp4       0      0  192.168.1.15.55007     whatsapp-cdn-shv.https ESTABLISHED
+tcp6       0      0  re-wrighting.54995     wright.59060           ESTABLISHED
+tcp4       0      0  localhost.49182        localhost.54983        ESTABLISHED
+tcp4       0      0  localhost.54983        localhost.49182        ESTABLISHED
+tcp4       0      0  192.168.1.15.54981     wo-in-f188.1e100.5228  ESTABLISHED
+tcp4       0      0  192.168.1.15.54576     wn-in-f108.1e100.imaps CLOSE_WAIT 
+tcp4       0      0  192.168.1.15.64773     ws-in-f108.1e100.imaps CLOSE_WAIT 
+tcp4       0      0  192.168.1.15.64707     ws-in-f108.1e100.imaps CLOSE_WAIT 
+tcp4       0      0  192.168.1.15.64381     17.57.146.86.5223      ESTABLISHED
+tcp4       0      0  192.168.1.15.61764     wm-in-f109.1e100.imaps ESTABLISHED
+tcp4       0      0  192.168.1.15.60698     17.42.251.56.imaps     CLOSE_WAIT 
+tcp6       0      0  re-wrighting.iad2      fe80::2eed:c212:.1025  ESTABLISHED
+tcp6       0      0  re-wrighting.1024      fe80::2eed:c212:.1024  ESTABLISHED
+tcp4       0      0  172.20.10.10.60737     wa-in-f109.1e100.imaps ESTABLISHED
+tcp4       0      0  192.168.1.15.55529     server-13-33-52-.https TIME_WAIT  
+tcp4       0      0  192.168.1.15.55528     server-13-33-52-.https TIME_WAIT  
+tcp4       0      0  192.168.1.15.55526     104.18.107.64.https    TIME_WAIT  
+tcp4       0      0  192.168.1.15.55527     ec2-34-239-58-16.https TIME_WAIT  
+tcp4       0      0  192.168.1.15.55532     172.67.43.125.https    TIME_WAIT  
+tcp4       0      0  192.168.1.15.55533     104.22.28.232.https    TIME_WAIT  
+tcp4       0      0  192.168.1.15.55530     server-54-230-10.https TIME_WAIT  
+tcp4       0      0  192.168.1.15.55534     server-54-230-10.https TIME_WAIT  
+udp4       0      0  192.168.1.15.49863     prg03s02-in-f14..https            
+udp4       0      0  192.168.1.15.62727     lhr48s08-in-f3.1.https            
+udp4       0      0  192.168.1.15.65374     17.248.180.145.https              
+udp4       0      0  192.168.1.15.52982     lhr25s32-in-f3.1.https            
+udp4       0      0  192.168.1.15.49295     lhr25s13-in-f14..https            
+udp4       0      0  192.168.1.15.65114     dns.google.https                  
+udp4       0      0  192.168.1.15.63621     17.252.62.8.https                 
+udp4       0      0  192.168.1.15.59240     lhr25s33-in-f10..https            
+udp4       0      0  192.168.1.15.53715     17.252.62.8.https                 
+udp4       0      0  192.168.1.15.52380     dns.google.https                  
+udp4       0      0  192.168.1.15.52438     134.32.120.34.bc.https            
+udp4       0      0  192.168.1.15.60731     17.252.62.8.https                 
+udp4       0      0  192.168.1.15.64575     17.252.62.8.https                 
+udp4       0      0  192.168.1.15.52551     17.248.180.114.https              
+udp4       0      0  *.56588                *.*                               
+udp6       0      0  *.xserveraid           *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp46      0      0  *.mdns                 *.*                               
+udp46      0      0  *.mdns                 *.*                               
+udp46      0      0  *.mdns                 *.*                               
+udp46      0      0  *.mdns                 *.*                               
+udp46      0      0  *.mdns                 *.*                               
+udp46      0      0  *.mdns                 *.*                               
+udp46      0      0  *.mdns                 *.*                               
+udp46      0      0  *.mdns                 *.*                               
+udp4       0      0  *.mdns                 *.*                               
+udp46      0      0  *.mdns                 *.*                               
+udp46      0      0  *.mdns                 *.*                               
+udp46      0      0  *.mdns                 *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp46      0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp6       0      0  *.mdns                 *.*                               
+udp4       0      0  *.mdns                 *.*                               
+udp4       0      0  *.netbios-ns           *.*                               
+udp4       0      0  *.netbios-dgm          *.*                               
+icm4       0      0  *.*                    *.*                               
+Active Multipath Internet connections
+Proto/ID  Flags      Local Address          Foreign Address        (state)    
+icm6       0      0  *.*                    *.*                               
+Active LOCAL (UNIX) domain sockets
+Address          Type   Recv-Q Send-Q            Inode             Conn             Refs          Nextref Addr
+277095019aad15b9 stream      0      0                0 277095019aad14f1                0                0 /var/run/mDNSResponder
+277095019aad14f1 stream      0      0                0 277095019aad15b9                0                0
+277095019aad1429 stream      0      0                0 277095019aad1361                0                0
+277095019aad1361 stream      4      0                0 277095019aad1429                0                0
+277095019aad5501 stream      0      0                0 277095019aad5439                0                0 /var/run/mDNSResponder
+277095019aad5439 stream      0      0                0 277095019aad5501                0                0
+277095019aad43d1 stream      0      0                0 277095019aad3fe9                0                0 /Users/re_wrighting/.docker/run/docker.sock
+277095019aad4241 stream      0      0                0 277095019aad3f21                0                0 /Users/re_wrighting/.docker/run/docker.sock
+277095019aad3fe9 stream      0      0                0 277095019aad43d1                0                0
+277095019aad3f21 stream      0      0                0 277095019aad4241                0                0
+277095019aad02f9 stream      0      0                0 277095019aad0231                0                0 /var/run/mDNSResponder
+277095019aad0231 stream      0      0                0 277095019aad02f9                0                0
+277095019aacff11 stream      0      0                0 277095019aacfd81                0                0 /var/run/mDNSResponder
+277095019aacfd81 stream      0      0                0 277095019aacff11                0                0
+277095019aad2171 stream      0      0                0 277095019aad1fe1                0                0 /var/run/mDNSResponder
+277095019aad1fe1 stream      0      0                0 277095019aad2171                0                0
+277095019aad0169 stream      0      0                0 277095019aacffd9                0                0 /var/folders/nl/kcg3n0tj1vzgdts2s22wyldr0000gp/T/iTerm2-temp-socket.0SeNs1
+277095019aacffd9 stream      0      0                0 277095019aad0169                0                0
+277095019aace931 stream      0      0                0 277095019aace611                0                0 /var/folders/nl/kcg3n0tj1vzgdts2s22wyldr0000gp/T/iTerm2-temp-socket.faAg8A
+277095019aace611 stream      0      0                0 277095019aace931                0                0
+277095019aad3d91 stream      0      0                0 277095019aad3cc9                0                0 /var/run/mDNSResponder
+277095019aad3cc9 stream      0      0                0 277095019aad3d91                0                0
+277095019aad2f81 stream      0      0                0 277095019aad2df1                0                0 /var/run/mDNSResponder
+277095019aad2df1 stream      0      0                0 277095019aad2f81                0                0
+277095019aad2ad1 stream      0      0                0 277095019aad3c01                0                0 /var/run/mDNSResponder
+277095019aad3c01 stream      0      0                0 277095019aad2ad1                0                0
+277095019aad5119 stream      0      0                0 277095019aad5051                0                0 /var/run/mDNSResponder
+277095019aad5051 stream      0      0                0 277095019aad5119                0                0
+277095019aad4ad9 stream      0      0                0 277095019aad4561                0                0 /var/run/mDNSResponder
+277095019aad4561 stream      0      0                0 277095019aad4ad9                0                0
+277095019aad3819 stream      0      0                0 277095019aad3751                0                0
+277095019aad3751 stream      8      0                0 277095019aad3819                0                0
+277095019aad2d29 stream      0      0                0 277095019aad2c61                0                0
+277095019aad2c61 stream      8      0                0 277095019aad2d29                0                0
+277095019aad2879 stream      0      0                0 277095019aad27b1                0                0
+277095019aad27b1 stream      8      0                0 277095019aad2879                0                0
+277095019aad26e9 stream      0      0                0 277095019aad2621                0                0
+277095019aad2621 stream      8      0                0 277095019aad26e9                0                0
+277095019aad2559 stream      0      0                0 277095019aad2301                0                0
+277095019aad2301 stream      8      0                0 277095019aad2559                0                0
+277095019aad2239 stream      0      0                0 277095019aad20a9                0                0
+277095019aad20a9 stream      8      0                0 277095019aad2239                0                0
+277095019aad1041 stream      0      0                0 277095019aad0f79                0                0
+277095019aad0f79 stream      8      0                0 277095019aad1041                0                0
+277095019aad0eb1 stream      0      0                0 277095019aad0de9                0                0
+277095019aad0de9 stream      8      0                0 277095019aad0eb1                0                0
+277095019aad0b91 stream      0      0                0 277095019aad0ac9                0                0
+277095019aad0ac9 stream      8      0                0 277095019aad0b91                0                0
+277095019aad0a01 stream      0      0                0 277095019aad0871                0                0
+277095019aad0871 stream      8      0                0 277095019aad0a01                0                0
+277095019aacfcb9 stream      0      0                0 277095019aacfbf1                0                0
+277095019aacfbf1 stream      8      0                0 277095019aacfcb9                0                0
+277095019aacfa61 stream      0      0                0 277095019aacf999                0                0
+277095019aacf999 stream      8      0                0 277095019aacfa61                0                0
+277095019aad0d21 stream      0      0                0 277095019aad0c59                0                0 /Users/re_wrighting/Library/Containers/com.docker.docker/Data/procd.sock
+277095019aad0c59 stream      0      0                0 277095019aad0d21                0                0
+277095019aad00a1 stream      0      0                0 277095019aacfe49                0                0 backend.sock
+277095019aacfe49 stream      0      0                0 277095019aad00a1                0                0
+277095019aace869 stream      0      0                0 277095019aace6d9                0                0 backend.sock
+277095019aace6d9 stream      0      0                0 277095019aace869                0                0
+277095019aad4c69 stream      0      0                0 277095019aad4ba1                0                0 /Users/re_wrighting/Library/Containers/com.docker.docker/Data/docker.raw.sock
+277095019aad4ba1 stream      0      0                0 277095019aad4c69                0                0
+277095019aad4df9 stream      0      0                0 277095019aad4d31                0                0 /var/run/mDNSResponder
+277095019aad4d31 stream      0      0                0 277095019aad4df9                0                0
+277095019aad39a9 stream      0      0                0 277095019aad38e1                0                0 /var/run/mDNSResponder
+277095019aad38e1 stream      0      0                0 277095019aad39a9                0                0
+27709501a14c4871 stream      0      0                0 277095019aad6ea9                0                0 /private/var/folders/nl/kcg3n0tj1vzgdts2s22wyldr0000gp/T/fdm6fs502
+277095019aad6ea9 stream      0      0                0 27709501a14c4871                0                0
+277095019aadca11 stream      0      0 27709501a5964361                0                0                0 /var/folders/nl/kcg3n0tj1vzgdts2s22wyldr0000gp/T/.com.google.Chrome.V2cl1k/SingletonSocket
+277095019aacf809 stream      0      0                0 277095019aacf741                0                0 /var/run/mDNSResponder
+277095019aacf741 stream      0      0                0 277095019aacf809                0                0
+27709501a14c83d1 stream      0      0                0                0                0                0 /Users/re_wrighting/Library/Containers/com.docker.docker/Data/procd.sock
+277095019aad0551 stream      0      0                0 277095019aad0489                0                0 /var/folders/nl/kcg3n0tj1vzgdts2s22wyldr0000gp/T/iTerm2-temp-socket.DTVNLS
+277095019aad0489 stream      0      0                0 277095019aad0551                0                0
+277095019aacf4e9 stream      0      0                0                0                0                0 /Users/re_wrighting/Library/Containers/com.docker.docker/Data/procd.sock
+277095019aad63d9 stream      0      0                0 277095019aad6311                0                0 /Users/re_wrighting/Library/Containers/com.docker.docker/Data/docker.raw.sock
+277095019aad6311 stream      0      0                0 277095019aad63d9                0                0
+277095019aad5a79 stream      0      0                0 277095019aad58e9                0                0 /Users/re_wrighting/.docker/run/docker.sock
+277095019aad58e9 stream      0      0                0 277095019aad5a79                0                0
+277095019aad5691 stream      0      0                0 277095019aad55c9                0                0 /Users/re_wrighting/.docker/run/docker.sock
+277095019aad55c9 stream      0      0                0 277095019aad5691                0                0
+277095019aad52a9 stream      0      0                0 277095019aad51e1                0                0 /var/folders/nl/kcg3n0tj1vzgdts2s22wyldr0000gp/T/iTerm2-temp-socket.IfuOnJ
+277095019aad51e1 stream      0      0                0 277095019aad52a9                0                0
+277095019aad32a1 stream      0      0                0 277095019aad3111                0                0 /var/run/mDNSResponder
+277095019aad3111 stream      0      0                0 277095019aad32a1                0                0
+277095019aad4949 stream      0      0                0 277095019aad4881                0                0 backend.sock
+277095019aad4881 stream      0      0                0 277095019aad4949                0                0
+277095019aad47b9 stream      0      0                0 277095019aad46f1                0                0 backend.sock
+277095019aad46f1 stream      0      0                0 277095019aad47b9                0                0
+277095019aad6249 stream      0      0                0 277095019aad6181                0                0 backend.sock
+277095019aad6181 stream      0      0                0 277095019aad6249                0                0
+277095019aad60b9 stream      0      0                0 277095019aad5ff1                0                0 backend.sock
+277095019aad5ff1 stream      0      0                0 277095019aad60b9                0                0
+277095019aad4629 stream      0      0                0 277095019aadc561                0                0 backend.sock
+277095019aadc561 stream      0      0                0 277095019aad4629                0                0
+277095019aadbf21 stream      0      0                0 277095019aadb689                0                0 backend.sock
+277095019aadb689 stream      0      0                0 277095019aadbf21                0                0
+277095019aada6e9 stream      0      0                0 277095019aade181                0                0 backend.sock
+277095019aade181 stream      0      0                0 277095019aada6e9                0                0
+27709501a14c9f29 stream      0      0                0 27709501a14c9e61                0                0 backend.sock
+27709501a14c9e61 stream      0      0                0 27709501a14c9f29                0                0
+277095019aad75b1 stream      0      0                0                0                0                0 /Users/re_wrighting/Library/Containers/com.docker.docker/Data/procd.sock
+27709501a14c8309 stream      0      0                0 27709501a14c7049                0                0 /var/run/mDNSResponder
+27709501a14c7049 stream      0      0                0 27709501a14c8309                0                0
+277095019aad34f9 stream      0      0                0 277095019aad3431                0                0 /var/folders/nl/kcg3n0tj1vzgdts2s22wyldr0000gp/T/iTerm2-temp-socket.CMZL9X
+277095019aad3431 stream      0      0                0 277095019aad34f9                0                0
+277095019aadc7b9 stream      0      0                0 277095019aadb5c1                0                0 /Users/re_wrighting/.docker/run/docker.sock
+277095019aadb5c1 stream      0      0                0 277095019aadc7b9                0                0
+27709501a14c6b99 stream      0      0                0 27709501a14c4d21                0                0 /Users/re_wrighting/.docker/run/docker.sock
+27709501a14c4d21 stream      0      0                0 27709501a14c6b99                0                0
+27709501a14c9051 stream      0      0                0 27709501a14c4551                0                0 filesystem-volume.sock
+27709501a14c4551 stream      0      0                0 27709501a14c9051                0                0
+277095019aad7291 stream      0      0                0 277095019aad7039                0                0 /var/folders/nl/kcg3n0tj1vzgdts2s22wyldr0000gp/T/iTerm2-temp-socket.qC1Cqh
+277095019aad7039 stream      0      0                0 277095019aad7291                0                0
+277095019aad71c9 stream      0      0                0 277095019aad7101                0                0 /var/run/mDNSResponder
+277095019aad7101 stream      0      0                0 277095019aad71c9                0                0
+277095019aad6b89 stream      0      0                0 277095019aade3d9                0                0 /Users/re_wrighting/Library/Containers/com.docker.docker/Data/docker.raw.sock
+277095019aade3d9 stream      0      0                0 277095019aad6b89                0                0
+277095019aadd2a9 stream      0      0                0 277095019aadd1e1                0                0 /Users/re_wrighting/.docker/run/docker.sock
+277095019aadd1e1 stream      0      0                0 277095019aadd2a9                0                0
+277095019aadcec1 stream      0      0                0 277095019aadcdf9                0                0 /Users/re_wrighting/.docker/run/docker.sock
+277095019aadcdf9 stream      0      0                0 277095019aadcec1                0                0
+277095019aadd119 stream      0      0                0 277095019aadd051                0                0 /Users/re_wrighting/.docker/run/docker.sock
+277095019aadd051 stream      0      0                0 277095019aadd119                0                0
+277095019aadaad1 stream      0      0                0 277095019aadaa09                0                0 /Users/re_wrighting/Library/Containers/com.docker.docker/Data/volume-contents.sock
+277095019aadaa09 stream      0      0                0 277095019aadaad1                0                0
+277095019aadcd31 stream      0      0 27709501a65fcfc1                0                0                0 docker-desktop-build.sock
+277095019aadcad9 stream      0      0                0 277095019aadc949                0                0 /Users/re_wrighting/.docker/run/docker.sock
+277095019aadc949 stream      0      0                0 277095019aadcad9                0                0
+277095019aada941 stream      0      0                0 277095019aada879                0                0 backend.sock
+277095019aada879 stream      0      0                0 277095019aada941                0                0
+277095019aadc6f1 stream      0      0                0 277095019aadc629                0                0 extension-manager.sock
+277095019aadc629 stream      0      0                0 277095019aadc6f1                0                0
+277095019aadc3d1 stream      0      0                0 277095019aadc309                0                0 filesystem-volume.sock
+277095019aadc309 stream      0      0                0 277095019aadc3d1                0                0
+277095019aadc179 stream      0      0                0 277095019aadc0b1                0                0 /Users/re_wrighting/Library/Containers/com.docker.docker/Data/docker.raw.sock
+277095019aadc0b1 stream      0      0                0 277095019aadc179                0                0
+277095019aadb431 stream      0      0                0 277095019aadb369                0                0 /Users/re_wrighting/.docker/run/docker.sock
+277095019aadb369 stream      0      0                0 277095019aadb431                0                0
+277095019aadaf81 stream      0      0                0 277095019aadaeb9                0                0 /Users/re_wrighting/Library/Containers/com.docker.docker/Data/docker.raw.sock
+277095019aadaeb9 stream      0      0                0 277095019aadaf81                0                0
+277095019aadadf1 stream      0      0                0 277095019aadad29                0                0 /Users/re_wrighting/Library/Containers/com.docker.docker/Data/docker.raw.sock
+277095019aadad29 stream      0      0                0 277095019aadadf1                0                0
+277095019aadac61 stream      0      0                0 277095019aadab99                0                0 /Users/re_wrighting/Library/Containers/com.docker.docker/Data/docker.raw.sock
+277095019aadab99 stream      0      0                0 277095019aadac61                0                0
+277095019aadd9b1 stream      0      0                0 277095019aadd8e9                0                0 /Users/re_wrighting/Library/Containers/com.docker.docker/Data/docker.raw.sock
+277095019aadd8e9 stream      0      0                0 277095019aadd9b1                0                0
+277095019aadc241 stream      0      0                0 277095019aad9299                0                0 extension-manager.sock
+277095019aad9299 stream      0      0                0 277095019aadc241                0                0
+277095019aadbe59 stream      0      0                0 277095019aadbd91                0                0 extension-manager.sock
+277095019aadbd91 stream      0      0                0 277095019aadbe59                0                0
+277095019aadbcc9 stream      0      0                0 277095019aadbc01                0                0 backend.sock
+277095019aadbc01 stream      0      0                0 277095019aadbcc9                0                0
+277095019aadbb39 stream      0      0                0 277095019aadba71                0                0 backend.sock
+277095019aadba71 stream      0      0                0 277095019aadbb39                0                0
+277095019aadb9a9 stream      0      0                0 277095019aadb8e1                0                0 backend.sock
+277095019aadb8e1 stream      0      0                0 277095019aadb9a9                0                0
+277095019aadb819 stream      0      0                0 277095019aadb4f9                0                0 backend.sock
+277095019aadb4f9 stream      0      0                0 277095019aadb819                0                0
+277095019aadb2a1 stream      0      0                0 277095019aadb1d9                0                0 extension-manager.sock
+277095019aadb1d9 stream      0      0                0 277095019aadb2a1                0                0
+277095019aadb111 stream      0      0                0 277095019aadb049                0                0 extension-manager.sock
+277095019aadb049 stream      0      0                0 277095019aadb111                0                0
+277095019aada621 stream      0      0                0 277095019aada559                0                0 backend.sock
+277095019aada559 stream      0      0                0 277095019aada621                0                0
+277095019aada491 stream      0      0                0 277095019aada3c9                0                0 backend.sock
+277095019aada3c9 stream      0      0                0 277095019aada491                0                0
+277095019aada301 stream      0      0                0 277095019aada239                0                0 backend.sock
+277095019aada239 stream      0      0                0 277095019aada301                0                0
+277095019aada171 stream      0      0                0 277095019aad9a69                0                0 backend.sock
+277095019aad9a69 stream      0      0                0 277095019aada171                0                0
+277095019aad9749 stream      0      0                0 277095019aad9361                0                0 backend.sock
+277095019aad9361 stream      0      0                0 277095019aad9749                0                0
+277095019aad91d1 stream      0      0                0 277095019aad7679                0                0 backend.sock
+277095019aad7679 stream      0      0                0 277095019aad91d1                0                0
+277095019aad8eb1 stream      0      0                0 277095019aad8d21                0                0 backend.sock
+277095019aad8d21 stream      0      0                0 277095019aad8eb1                0                0
+277095019aad8c59 stream      0      0                0 277095019aad8b91                0                0 backend.sock
+277095019aad8b91 stream      0      0                0 277095019aad8c59                0                0
+277095019aad8ac9 stream      0      0                0 277095019aad8a01                0                0 extension-manager.sock
+277095019aad8a01 stream      0      0                0 277095019aad8ac9                0                0
+277095019aad8939 stream      0      0                0 277095019aad8871                0                0 backend.sock
+277095019aad8871 stream      0      0                0 277095019aad8939                0                0
+277095019aad87a9 stream      0      0                0 277095019aad86e1                0                0 backend.sock
+277095019aad86e1 stream      0      0                0 277095019aad87a9                0                0
+277095019aad8489 stream      0      0                0 277095019aad83c1                0                0 backend.sock
+277095019aad83c1 stream      0      0                0 277095019aad8489                0                0
+277095019aad82f9 stream      0      0                0 277095019aad8231                0                0 backend.sock
+277095019aad8231 stream      0      0                0 277095019aad82f9                0                0
+277095019aad8169 stream      0      0                0 277095019aad80a1                0                0 backend.sock
+277095019aad80a1 stream      0      0                0 277095019aad8169                0                0
+277095019aad7fd9 stream      0      0                0 277095019aad7cb9                0                0 backend.sock
+277095019aad7cb9 stream      0      0                0 277095019aad7fd9                0                0
+277095019aad7bf1 stream      0      0                0 277095019aad7b29                0                0 backend.sock
+277095019aad7b29 stream      0      0                0 277095019aad7bf1                0                0
+277095019aad7999 stream      0      0                0 277095019aad78d1                0                0 backend.sock
+277095019aad78d1 stream      0      0                0 277095019aad7999                0                0
+277095019aad7a61 stream      0      0 27709501a6567a19                0                0                0 /var/folders/nl/kcg3n0tj1vzgdts2s22wyldr0000gp/T/scoped_dir1PukCL/SingletonSocket
+277095019aad7809 stream      0      0                0 277095019aad7741                0                0 /Users/re_wrighting/Library/Containers/com.docker.docker/Data/memlogdq.sock
+277095019aad7741 stream      0      0                0 277095019aad7809                0                0
+277095019aad74e9 stream      0      0                0 277095019aad7421                0                0
+277095019aad7421 stream      0      0                0 277095019aad74e9                0                0
+277095019aad6d19 stream      0      0                0 277095019aad6c51                0                0 /var/run/mDNSResponder
+277095019aad6c51 stream      0      0                0 277095019aad6d19                0                0
+277095019aad7359 stream      0      0 27709501a64f2aa1                0                0                0 /Users/re_wrighting/.docker/run/docker-cli-api.sock
+277095019aad67a1 stream      0      0 27709501a64ecba1                0                0                0 docker-dev-env-api.sock
+277095019aacf291 stream      0      0                0                0                0                0 /Users/re_wrighting/Library/Containers/com.docker.docker/Data/procd.sock
+277095019aacf039 stream      0      0                0 277095019aacef71                0                0 /Users/re_wrighting/Library/Containers/com.docker.docker/Data/docker.raw.sock
+277095019aacef71 stream      0      0                0 277095019aacf039                0                0
+277095019aaceea9 stream      0      0                0 277095019aacede1                0                0 /Users/re_wrighting/Library/Containers/com.docker.docker/Data/docker.raw.sock
+277095019aacede1 stream      0      0                0 277095019aaceea9                0                0
+277095019aaced19 stream      0      0                0 277095019aacec51                0                0 /Users/re_wrighting/Library/Containers/com.docker.docker/Data/docker.raw.sock
+277095019aacec51 stream      0      0                0 277095019aaced19                0                0
+277095019aaceb89 stream      0      0                0 277095019aaceac1                0                0 /Users/re_wrighting/Library/Containers/com.docker.docker/Data/docker.raw.sock
+277095019aaceac1 stream      0      0                0 277095019aaceb89                0                0
+277095019aace9f9 stream      0      0                0 277095019aace7a1                0                0 /var/run/mDNSResponder
+277095019aace7a1 stream      0      0                0 277095019aace9f9                0                0
+277095019aad9109 stream      0      0 27709501a64f2db9                0                0                0 extension-manager.sock
+277095019aada0a9 stream      0      0 27709501a6507e39                0                0                0 /Users/re_wrighting/Library/Containers/com.docker.docker/Data/docker-api-proxy-control.sock
+277095019aaddff1 stream      0      0 27709501a650b2e1                0                0                0 /Users/re_wrighting/Library/Containers/com.docker.docker/Data/artifactory-agent.sock
+277095019aaddf29 stream      0      0 27709501a650b3e9                0                0                0 /Users/re_wrighting/Library/Containers/com.docker.docker/Data/filesystem-test.sock
+277095019aad99a1 stream      0      0 27709501a6506cb1                0                0                0 /Users/re_wrighting/Library/Containers/com.docker.docker/Data/procd.sock
+277095019aad9041 stream      0      0 27709501a64b56f9                0                0                0 /Users/re_wrighting/Library/Containers/com.docker.docker/Data/debug-shell.sock
+277095019aad98d9 stream      0      0 27709501a6506db9                0                0                0 /Users/re_wrighting/Library/Containers/com.docker.docker/Data/docker.raw.sock
+277095019aadde61 stream      0      0 27709501a650b4f1                0                0                0 /Users/re_wrighting/Library/Containers/com.docker.docker/Data/memlogdq.sock
+277095019aad8f79 stream      0      0 27709501a64b5801                0                0                0 /Users/re_wrighting/Library/Containers/com.docker.docker/Data/devenv-volumes.sock
+277095019aaddcd1 stream      0      0 27709501a650b5f9                0                0                0 /Users/re_wrighting/Library/Containers/com.docker.docker/Data/nat-control.sock
+277095019aad9811 stream      0      0 27709501a6506ec1                0                0                0 /Users/re_wrighting/Library/Containers/com.docker.docker/Data/diagnosticd.sock
+277095019aad9f19 stream      0      0 27709501a6508049                0                0                0 /Users/re_wrighting/Library/Containers/com.docker.docker/Data/container-filesystem.sock
+277095019aad9e51 stream      0      0 27709501a6508151                0                0                0 /Users/re_wrighting/Library/Containers/com.docker.docker/Data/filesystem-event.sock
+277095019aad9cc1 stream      0      0 27709501a6508259                0                0                0 /Users/re_wrighting/Library/Containers/com.docker.docker/Data/volume-contents.sock
+277095019aad9bf9 stream      0      0 27709501a6508361                0                0                0 /Users/re_wrighting/Library/Containers/com.docker.docker/Data/dns-forwarder.sock
+277095019aad9b31 stream      0      0 27709501a6508469                0                0                0 /Users/re_wrighting/Library/Containers/com.docker.docker/Data/lifecycle-server.sock
+277095019aad9429 stream      0      0 27709501a6506579                0                0                0 /Users/re_wrighting/.docker/run/otlp.grpc.sock
+27709501a14c5361 stream      0      0 27709501a509f4f1                0                0                0 ./backend.native.sock
+277095019aad7f11 stream      0      0                0 277095019aad7e49                0                0 /var/run/mDNSResponder
+277095019aad7e49 stream      0      0                0 277095019aad7f11                0                0
+277095019aad8619 stream      0      0                0 277095019aad8551                0                0
+277095019aad8551 stream      0      0                0 277095019aad8619                0                0
+277095019aad6869 stream      0      0 27709501a4be2789                0                0                0 /private/var/folders/nl/kcg3n0tj1vzgdts2s22wyldr0000gp/T/fdm6fs502
+277095019aade311 stream      0      0                0 277095019aade249                0                0 /var/run/mDNSResponder
+277095019aade249 stream      0      0                0 277095019aade311                0                0
+277095019aad66d9 stream      0      0 27709501a501fa19                0                0                0 diagnosticd.direct.sock
+27709501a14c9ff1 stream      0      0 27709501a501efc9                0                0                0 vms/0/console.sock
+27709501a14c87b9 stream      0      0 27709501a501f0d1                0                0                0 virtualization.sock
+27709501a14c9371 stream      0      0                0 27709501a14c8f89                0                0 /var/run/mDNSResponder
+27709501a14c8f89 stream      0      0                0 27709501a14c9371                0                0
+27709501a14ca311 stream      0      0 27709501a4f73701                0                0                0 vms/0/00000002.00001003
+27709501a14ca249 stream      0      0 27709501a4f84ca9                0                0                0 vsock:4099
+27709501a14ca181 stream      0      0 27709501a4f76999                0                0                0 filesystem-export.sock
+27709501a14ca0b9 stream      0      0 27709501a4f795f1                0                0                0 filesystem-volume.sock
+27709501a14c9d99 stream      0      0 27709501a4f78049                0                0                0 vpnkit.port.sock
+27709501a14c9cd1 stream      0      0 27709501a4f775f9                0                0                0 ethernet-fd.sock
+27709501a14c9c09 stream      0      0 27709501a4f82251                0                0                0 networkproxy.sock
+27709501a14c9a79 stream      0      0 27709501a4f82461                0                0                0 httpproxy.sock
+27709501a14c99b1 stream      0      0 27709501a4f7edb9                0                0                0 docker-cli.sock
+27709501a14c98e9 stream      0      0 27709501a4f7e579                0                0                0 /Users/re_wrighting/.docker/run/docker.sock
+27709501a14c9821 stream      0      0 27709501a4f7e681                0                0                0 vpnkit-bridge.sock
+27709501a14c9759 stream      0      0 27709501a4f7efc9                0                0                0 vpnkit-bridge-fd.sock
+27709501a14c9691 stream      0      0 27709501a4f7e789                0                0                0 ethernet-vpnkit.sock
+27709501a14c95c9 stream      0      0 27709501a4dd5909                0                0                0 backend.sock
+27709501a14c9439 stream      0      0                0 27709501a14c8ec1                0                0
+27709501a14c8ec1 stream      0      0                0 27709501a14c9439                0                0
+27709501a14c8df9 stream      0      0                0 27709501a14c8d31                0                0
+27709501a14c8d31 stream      0      0                0 27709501a14c8df9                0                0
+27709501a14c8c69 stream      0      0                0 27709501a14c8949                0                0
+27709501a14c8949 stream      0      0                0 27709501a14c8c69                0                0
+27709501a14c92a9 stream      0      0                0 27709501a14c91e1                0                0 /var/run/mDNSResponder
+27709501a14c91e1 stream      0      0                0 27709501a14c92a9                0                0
+27709501a14c8ba1 stream      0      0                0 27709501a14c8ad9                0                0
+27709501a14c8ad9 stream      0      0                0 27709501a14c8ba1                0                0
+27709501a14c8a11 stream      0      0 27709501a4d6b3e9                0                0                0 /usr/local/var/run/watchman/re_wrighting-state/sock
+27709501a14c8561 stream      0      0                0 27709501a14c8499                0                0 /var/run/mDNSResponder
+27709501a14c8499 stream      0      0                0 27709501a14c8561                0                0
+27709501a14c7fe9 stream      0      0                0 27709501a14c7431                0                0 /var/run/mDNSResponder
+27709501a14c7431 stream      0      0                0 27709501a14c7fe9                0                0
+27709501a14c7f21 stream      0      0                0 27709501a14c7e59                0                0 /var/run/mDNSResponder
+27709501a14c7e59 stream      0      0                0 27709501a14c7f21                0                0
+27709501a14c7d91 stream      0      0                0 27709501a14c7cc9                0                0 /var/run/mDNSResponder
+27709501a14c7cc9 stream      0      0                0 27709501a14c7d91                0                0
+27709501a14c7c01 stream      0      0                0 27709501a14c60a9                0                0 /var/run/mDNSResponder
+27709501a14c6621 stream      0      0                0 27709501a14c6301                0                0 /var/run/mDNSResponder
+27709501a14c6301 stream      0      0                0 27709501a14c6621                0                0
+27709501a14c6239 stream      0      0                0 27709501a14c6171                0                0 /var/run/mDNSResponder
+27709501a14c6171 stream      0      0                0 27709501a14c6239                0                0
+27709501a14c60a9 stream      0      0                0 27709501a14c7c01                0                0
+27709501a14c7b39 stream      0      0                0 27709501a14c7a71                0                0 /var/run/mDNSResponder
+27709501a14c7a71 stream      0      0                0 27709501a14c7b39                0                0
+27709501a14c79a9 stream      0      0                0 27709501a14c78e1                0                0 /var/run/mDNSResponder
+27709501a14c78e1 stream      0      0                0 27709501a14c79a9                0                0
+27709501a14c7819 stream      0      0                0 27709501a14c7751                0                0 /var/run/mDNSResponder
+27709501a14c7751 stream      0      0                0 27709501a14c7819                0                0
+27709501a14c5e51 stream      0      0                0 27709501a14c7689                0                0 /var/run/mDNSResponder
+27709501a14c5d89 stream      0      0                0 27709501a14c5cc1                0                0 /var/run/mDNSResponder
+27709501a14c5cc1 stream      0      0                0 27709501a14c5d89                0                0
+27709501a14c5bf9 stream      0      0                0 27709501a14c5b31                0                0 /var/run/mDNSResponder
+27709501a14c7689 stream      0      0                0 27709501a14c5e51                0                0
+27709501a14c5b31 stream      0      0                0 27709501a14c5bf9                0                0
+27709501a14c75c1 stream      0      0                0 27709501a14c74f9                0                0 /var/run/mDNSResponder
+27709501a14c74f9 stream      0      0                0 27709501a14c75c1                0                0
+27709501a14c72a1 stream      0      0                0 27709501a14c71d9                0                0 /var/run/usbmuxd
+27709501a14c71d9 stream      0      0                0 27709501a14c72a1                0                0
+27709501a14c7111 stream      0      0                0 27709501a14c6941                0                0 /var/run/usbmuxd
+27709501a14c6941 stream      0      0                0 27709501a14c7111                0                0
+27709501a14c6ad1 stream      0      0                0 27709501a14c6a09                0                0 /var/run/usbmuxd
+27709501a14c6a09 stream      0      0                0 27709501a14c6ad1                0                0
+27709501a14c59a1 stream      0      0                0 27709501a14c58d9                0                0 /var/run/mDNSResponder
+27709501a14c58d9 stream      0      0                0 27709501a14c59a1                0                0
+27709501a14c5811 stream      0      0                0 27709501a14c5749                0                0 /var/run/mDNSResponder
+27709501a14c5749 stream      0      0                0 27709501a14c5811                0                0
+27709501a14c5681 stream      0      0 27709501a4874889                0                0                0 /var/run/filesystemui.socket
+27709501a14c55b9 stream      0      0 27709501a4874991                0                0                0 /private/tmp/com.apple.launchd.ZReRab6Av6/Listeners
+27709501a14c4eb1 stream      0      0 27709501a46a7809                0                0                0 /var/run/com.macpaw.CleanMyMac4.Agent.socket
+27709501a14c3999 stream      0      0                0 27709501a14c38d1                0                0
+27709501a14c38d1 stream      0      0                0 27709501a14c3999                0                0
+27709501a14c3bf1 stream      0      0 27709501a3fd8ca9                0                0                0 /var/run/pppconfd
+27709501a14c3359 stream      0      0 27709501a3c10a99                0                0                0 /var/run/usbmuxd
+27709501a14c3291 stream      0      0 27709501a3c0f5f9                0                0                0 /var/rpc/ncalrpc/srvsvc
+27709501a14c31c9 stream      0      0 27709501a3c0f701                0                0                0 /var/rpc/ncacn_np/srvsvc
+27709501a14c3101 stream      0      0 27709501a3c0fa19                0                0                0 /var/rpc/ncalrpc/wkssvc
+27709501a14c3039 stream      0      0 27709501a3c0fb21                0                0                0 /var/rpc/ncacn_np/wkssvc
+27709501a14c2f71 stream      0      0 27709501a3c0fc29                0                0                0 /var/rpc/ncacn_np/mdssvc
+27709501a14c2ea9 stream      0      0 27709501a3c0fd31                0                0                0 /var/rpc/ncalrpc/lsarpc
+27709501a14c2de1 stream      0      0 27709501a3c0e999                0                0                0 /var/rpc/ncacn_np/lsarpc
+27709501a14c2d19 stream      0      0 27709501a3c0eba9                0                0                0 /var/run/mDNSResponder
+27709501a14c2c51 stream      0      0 27709501a3c0ecb1                0                0                0 /var/run/systemkeychaincheck.socket
+27709501a14c2b89 stream      0      0 27709501a3c0edb9                0                0                0 /private/var/run/.sim_diagnosticd_socket
+27709501a14c2ac1 stream      0      0 27709501a3c0eec1                0                0                0 /var/run/portmap.socket
+27709501a14c29f9 stream      0      0 27709501a3c0efc9                0                0                0 /var/run/vpncontrol.sock
+27709501a14c2931 stream      0      0 27709501a3c0f0d1                0                0                0 /var/rpc/ncalrpc/NETLOGON
+27709501a14c2869 stream      0      0 27709501a3c12579                0                0                0 /private/var/run/cupsd
+unexpected kind 415 which 0x19f
+277095019aad11d1 dgram       0      0                0 27709501a14c26d9                0 277095019aacf1c9
+277095019aacf1c9 dgram       0      0                0 27709501a14c26d9                0 277095019aad4f89
+277095019aad4f89 dgram       0      0                0 27709501a14c26d9                0 277095019aad1299
+277095019aad1299 dgram       0      0                0 27709501a14c26d9                0 277095019aad5cd1
+277095019aad5cd1 dgram       0      0                0 27709501a14c26d9                0 277095019aacf359
+277095019aacf359 dgram       0      0                0 27709501a14c26d9                0 277095019aad4309
+277095019aad4309 dgram       0      0                0 27709501a14c26d9                0 277095019aad1a69
+277095019aad1a69 dgram       0      0                0 27709501a14c26d9                0 277095019aacfb29
+277095019aacfb29 dgram       0      0                0 27709501a14c26d9                0 277095019aad2491
+277095019aad2491 dgram       0      0                0 27709501a14c26d9                0 277095019aacf8d1
+277095019aacf8d1 dgram       0      0                0 27709501a14c26d9                0 277095019aad4a11
+277095019aad18d9 dgram       0      0                0 277095019aad1811 277095019aad1811                0
+277095019aad1811 dgram       0      0                0 277095019aad18d9 277095019aad18d9                0
+277095019aad4a11 dgram       0      0                0 27709501a14c26d9                0 27709501a14c6559
+27709501a14c6559 dgram       0      0                0 27709501a14c26d9                0 27709501a14ca3d9
+27709501a14ca3d9 dgram       0      0                0 27709501a14c26d9                0 277095019aade4a1
+277095019aade4a1 dgram       0      0                0 27709501a14c26d9                0 277095019aad2941
+277095019aaddd99 dgram       0      0                0 277095019aadd759 277095019aadd759                0
+277095019aadd759 dgram       0      0                0 277095019aaddd99 277095019aaddd99                0
+277095019aad2941 dgram       0      0                0 27709501a14c26d9                0 27709501a14c5041
+27709501a14c5041 dgram       0      0                0 27709501a14c26d9                0 277095019aaddc09
+277095019aaddc09 dgram       0      0                0 27709501a14c26d9                0 277095019aada7b1
+277095019aada7b1 dgram       0      0                0 27709501a14c26d9                0 277095019aad31d9
+277095019aad31d9 dgram       0      0                0 27709501a14c26d9                0 27709501a14c6d29
+27709501a14c6d29 dgram       0      0                0 27709501a14c26d9                0 27709501a14c8629
+27709501a14c8629 dgram       0      0                0 27709501a14c26d9                0 27709501a14c9119
+27709501a14c9119 dgram       0      0                0 27709501a14c26d9                0 27709501a14c6c61
+27709501a14c6c61 dgram       0      0                0 27709501a14c26d9                0 277095019aad2eb9
+277095019aad2eb9 dgram       0      0                0 27709501a14c26d9                0 277095019aadd821
+27709501a14c6df1 dgram       0      0                0 27709501a14c5109 27709501a14c5109                0
+27709501a14c5109 dgram       0      0                0 27709501a14c6df1 27709501a14c6df1                0
+277095019aadd821 dgram       0      0                0 27709501a14c26d9                0 27709501a14c43c1
+27709501a14c43c1 dgram       0      0                0 27709501a14c26d9                0 277095019aadd371
+277095019aadd371 dgram       0      0                0 27709501a14c26d9                0 277095019aad6ac1
+277095019aad6ac1 dgram       0      0                0 27709501a14c26d9                0 27709501a14c5429
+27709501a14c5429 dgram       0      0                0 27709501a14c26d9                0 277095019aad8de9
+277095019aad8de9 dgram       0      0                0 27709501a14c26d9                0 277095019aadb751
+277095019aadb751 dgram       0      0                0 27709501a14c26d9                0 277095019aad9d89
+277095019aad9d89 dgram       0      0                0 27709501a14c26d9                0 27709501a14c4c59
+277095019aad9681 dgram       0      0                0 277095019aad95b9 277095019aad95b9                0
+277095019aad95b9 dgram       0      0                0 277095019aad9681 277095019aad9681                0
+27709501a14c4c59 dgram       0      0                0 27709501a14c26d9                0 277095019aad7d81
+277095019aad7d81 dgram       0      0                0 27709501a14c26d9                0 277095019aadcf89
+277095019aadcf89 dgram       0      0                0 27709501a14c26d9                0 27709501a14c2611
+277095019aad69f9 dgram       0      0                0 277095019aad6931 277095019aad6931                0
+277095019aad6931 dgram       0      0                0 277095019aad69f9 277095019aad69f9                0
+277095019aad6611 dgram       0      0                0 27709501a14ca4a1 27709501a14ca4a1                0
+27709501a14ca4a1 dgram       0      0                0 277095019aad6611 277095019aad6611                0
+27709501a14c2611 dgram       0      0                0 27709501a14c26d9                0 27709501a14c7369
+27709501a14c8241 dgram       0      0                0 27709501a14c8179 27709501a14c8179                0
+27709501a14c8179 dgram       0      0                0 27709501a14c8241 27709501a14c8241                0
+27709501a14c7369 dgram       0      0                0 27709501a14c26d9                0 27709501a14c5a69
+27709501a14c6879 dgram       0      0                0 27709501a14c67b1 27709501a14c67b1                0
+27709501a14c67b1 dgram       0      0                0 27709501a14c6879 27709501a14c6879                0
+27709501a14c5a69 dgram       0      0                0 27709501a14c26d9                0 27709501a14c63c9
+27709501a14c63c9 dgram       0      0                0 27709501a14c26d9                0 27709501a14c3421
+27709501a14c3421 dgram       0      0                0 27709501a14c26d9                0 27709501a14c4f79
+27709501a14c4f79 dgram       0      0                0 27709501a14c26d9                0 27709501a14c5299
+27709501a14c5299 dgram       0      0                0 27709501a14c26d9                0 27709501a14c51d1
+27709501a14c51d1 dgram       0      0                0 27709501a14c26d9                0 27709501a14c4de9
+27709501a14c4de9 dgram       0      0                0 27709501a14c26d9                0 27709501a14c4ac9
+27709501a14c4ac9 dgram       0      0                0 27709501a14c26d9                0 27709501a14c4939
+27709501a14c4939 dgram       0      0                0 27709501a14c26d9                0 27709501a14c4169
+27709501a14c4169 dgram       0      0                0 27709501a14c26d9                0 27709501a14c3e49
+27709501a14c40a1 dgram       0      0                0 27709501a14c3f11 27709501a14c3f11                0
+27709501a14c3f11 dgram       0      0                0 27709501a14c40a1 27709501a14c40a1                0
+27709501a14c47a9 dgram       0      0                0 27709501a14c46e1 27709501a14c46e1                0
+27709501a14c46e1 dgram       0      0                0 27709501a14c47a9 27709501a14c47a9                0
+27709501a14c3e49 dgram       0      0                0 27709501a14c26d9                0 27709501a14c4489
+27709501a14c4489 dgram       0      0                0 27709501a14c26d9                0 27709501a14c3fd9
+27709501a14c42f9 dgram       0      0                0 27709501a14c4231 27709501a14c4231                0
+27709501a14c4231 dgram       0      0                0 27709501a14c42f9 27709501a14c42f9                0
+27709501a14c3fd9 dgram       0      0                0 27709501a14c26d9                0 27709501a14c3b29
+27709501a14c3d81 dgram       0      0                0 27709501a14c3cb9 27709501a14c3cb9                0
+27709501a14c3cb9 dgram       0      0                0 27709501a14c3d81 27709501a14c3d81                0
+27709501a14c3b29 dgram       0      0                0 27709501a14c26d9                0 27709501a14c3a61
+27709501a14c3a61 dgram       0      0                0 27709501a14c26d9                0 27709501a14c3809
+27709501a14c3809 dgram       0      0                0 27709501a14c26d9                0 27709501a14c3741
+27709501a14c3741 dgram       0      0                0 27709501a14c26d9                0 27709501a14c34e9
+27709501a14c3679 dgram       0      0                0 27709501a14c35b1 27709501a14c35b1                0
+27709501a14c35b1 dgram       0      0                0 27709501a14c3679 27709501a14c3679                0
+27709501a14c34e9 dgram       0      0                0 27709501a14c26d9                0 27709501a14c27a1
+27709501a14c27a1 dgram       0      0                0 27709501a14c26d9                0                0
+27709501a14c26d9 dgram       0      0 27709501a35730d1                0 277095019aad11d1                0 /private//var/run/syslog
+unexpected kind 415 which 0x19f
+Registered kernel control modules
+id       flags    pcbcount rcvbuf   sndbuf   name 
+       1        9        1     8192   131072 com.apple.flow-divert 
+       2        1       30    65536    65536 com.apple.net.netagent 
+       3        9        0   524288   524288 com.apple.content-filter 
+       4       29        5   524288   524288 com.apple.net.utun_control 
+       5       21        0    65536    65536 com.apple.net.ipsec_control 
+       6        0       51     8192     2048 com.apple.netsrc 
+       7       18        3     8192     2048 com.apple.network.statistics 
+       8        5        0     8192    32768 com.apple.network.tcp_ccdebug 
+       9        1        0     8192     2048 com.apple.network.advisory 
+       a        1        0    65536    65536 com.apple.net.rvi_control 
+       b        1        1    16384     2048 com.apple.nke.sockwall 
+       c        4        0    65536     2048 com.apple.uart.wlan-debug 
+       d        4        0     8192     2048 com.apple.uart.sk.wlan-debug 
+       e        4        0    65536     2048 com.apple.spmi.nfc 
+Active kernel event sockets
+Proto Recv-Q Send-Q vendor  class  subcl
+kevt       0      0      1      1      2
+kevt       0      0      1      1      9
+kevt       0      0      1      1      9
+kevt       0      0      1      6      1
+kevt       0      0      1      1     11
+kevt       0      0      1      1      6
+kevt       0      0      1      1      1
+kevt       0      0      1      6      1
+kevt       0      0      1      1     10
+kevt       0      0   1001      5     11
+kevt       0      0      1      1      2
+kevt       0      0      1      1      2
+kevt       0      0      1      1      7
+kevt       0      0      1      1      1
+kevt       0      0      1      1      2
+kevt       0      0      1      1      0
+kevt       0      0      1      3      3
+Active kernel control sockets
+Proto Recv-Q Send-Q   unit     id name
+kctl       0      0      1      1 com.apple.flow-divert
+kctl       0      0      1      2 com.apple.net.netagent
+kctl       0      0      2      2 com.apple.net.netagent
+kctl       0      0      3      2 com.apple.net.netagent
+kctl       0      0      4      2 com.apple.net.netagent
+kctl       0      0      5      2 com.apple.net.netagent
+kctl       0      0      6      2 com.apple.net.netagent
+kctl       0      0      7      2 com.apple.net.netagent
+kctl       0      0      8      2 com.apple.net.netagent
+kctl       0      0      9      2 com.apple.net.netagent
+kctl       0      0     10      2 com.apple.net.netagent
+kctl       0      0     11      2 com.apple.net.netagent
+kctl       0      0     12      2 com.apple.net.netagent
+kctl       0      0     13      2 com.apple.net.netagent
+kctl       0      0     14      2 com.apple.net.netagent
+kctl       0      0     15      2 com.apple.net.netagent
+kctl       0      0     16      2 com.apple.net.netagent
+kctl       0      0     18      2 com.apple.net.netagent
+kctl       0      0     19      2 com.apple.net.netagent
+kctl       0      0     20      2 com.apple.net.netagent
+kctl       0      0     21      2 com.apple.net.netagent
+kctl       0      0     22      2 com.apple.net.netagent
+kctl       0      0     23      2 com.apple.net.netagent
+kctl       0      0     24      2 com.apple.net.netagent
+kctl       0      0     25      2 com.apple.net.netagent
+kctl       0      0     26      2 com.apple.net.netagent
+kctl       0      0     27      2 com.apple.net.netagent
+kctl       0      0     28      2 com.apple.net.netagent
+kctl       0      0     29      2 com.apple.net.netagent
+kctl       0      0     30      2 com.apple.net.netagent
+kctl       0      0     31      2 com.apple.net.netagent
+kctl       0      0      1      4 com.apple.net.utun_control
+kctl       0      0      2      4 com.apple.net.utun_control
+kctl       0      0      3      4 com.apple.net.utun_control
+kctl       0      0      4      4 com.apple.net.utun_control
+kctl       0      0      5      4 com.apple.net.utun_control
+kctl       0      0      1      6 com.apple.netsrc
+kctl       0      0      2      6 com.apple.netsrc
+kctl       0      0      3      6 com.apple.netsrc
+kctl       0      0      4      6 com.apple.netsrc
+kctl       0      0      5      6 com.apple.netsrc
+kctl       0      0      6      6 com.apple.netsrc
+kctl       0      0      7      6 com.apple.netsrc
+kctl       0      0      8      6 com.apple.netsrc
+kctl       0      0      9      6 com.apple.netsrc
+kctl       0      0     10      6 com.apple.netsrc
+kctl       0      0     11      6 com.apple.netsrc
+kctl       0      0     12      6 com.apple.netsrc
+kctl       0      0     13      6 com.apple.netsrc
+kctl       0      0     14      6 com.apple.netsrc
+kctl       0      0     15      6 com.apple.netsrc
+kctl       0      0     16      6 com.apple.netsrc
+kctl       0      0     17      6 com.apple.netsrc
+kctl       0      0     18      6 com.apple.netsrc
+kctl       0      0     19      6 com.apple.netsrc
+kctl       0      0     20      6 com.apple.netsrc
+kctl       0      0     21      6 com.apple.netsrc
+kctl       0      0     22      6 com.apple.netsrc
+kctl       0      0     23      6 com.apple.netsrc
+kctl       0      0     24      6 com.apple.netsrc
+kctl       0      0     25      6 com.apple.netsrc
+kctl       0      0     26      6 com.apple.netsrc
+kctl       0      0     27      6 com.apple.netsrc
+kctl       0      0     28      6 com.apple.netsrc
+kctl       0      0     29      6 com.apple.netsrc
+kctl       0      0     30      6 com.apple.netsrc
+kctl       0      0     31      6 com.apple.netsrc
+kctl       0      0     32      6 com.apple.netsrc
+kctl       0      0     33      6 com.apple.netsrc
+kctl       0      0     34      6 com.apple.netsrc
+kctl       0      0     35      6 com.apple.netsrc
+kctl       0      0     36      6 com.apple.netsrc
+kctl       0      0     37      6 com.apple.netsrc
+kctl       0      0     38      6 com.apple.netsrc
+kctl       0      0     39      6 com.apple.netsrc
+kctl       0      0     40      6 com.apple.netsrc
+kctl       0      0     41      6 com.apple.netsrc
+kctl       0      0     42      6 com.apple.netsrc
+kctl       0      0     43      6 com.apple.netsrc
+kctl       0      0     44      6 com.apple.netsrc
+kctl       0      0     46      6 com.apple.netsrc
+kctl       0      0     48      6 com.apple.netsrc
+kctl       0      0     49      6 com.apple.netsrc
+kctl       0      0     50      6 com.apple.netsrc
+kctl       0      0     51      6 com.apple.netsrc
+kctl       0      0     52      6 com.apple.netsrc
+kctl       0      0     54      6 com.apple.netsrc
+kctl       0      0      1      7 com.apple.network.statistics
+kctl       0      0      2      7 com.apple.network.statistics
+kctl       0      0      3      7 com.apple.network.statistics
+kctl       0      0      1     11 com.apple.nke.sockwall
