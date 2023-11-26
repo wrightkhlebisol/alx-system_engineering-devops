@@ -1,7 +1,13 @@
 # Configure ssh_config
-$host_config = "~/.ssh/config"
+$ssh_path = '/etc/ssh/sshd_config'
 
-file { $host_config
-  ensure  => "present'",
-  content => template("host_config.erb")
+file_line { 'Turn off passwd auth':
+  path => $ssh_path,
+  line => 'PasswordAuthentication no',
 }
+
+file_line { 'Declare identity file':
+  path => $ssh_path,
+  line => 'IdentityFile ~/.ssh/school',
+}
+
