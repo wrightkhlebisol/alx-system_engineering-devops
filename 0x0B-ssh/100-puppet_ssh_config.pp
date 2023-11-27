@@ -15,5 +15,5 @@ $host_config = '/etc/ssh/ssh_config'
 
 file { $host_config:
   ensure  => 'present',
-  content => "Host *\n\tPasswordAuthentication no\n\tIdentityFile /root/.ssh/school"
+  content => "PasswordAuthentication no\nIdentityFile ~/.ssh/school"
 }
