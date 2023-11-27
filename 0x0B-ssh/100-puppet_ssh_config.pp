@@ -11,7 +11,7 @@
 #  line => 'IdentityFile ~/.ssh/school',
 #}
 
-$host_config = '/etc/ssh/ssh_config'
+$host_config = '/root/.ssh/config'
 
 file { $host_config:
   ensure  => 'present',
