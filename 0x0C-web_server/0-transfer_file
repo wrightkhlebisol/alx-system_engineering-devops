@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
-# transfer a file from client to server
-
-args="$#"
-if [[ $args -lt 3 ]];
+# Transfer a file to server
+if [[ $# -gt 3 ]]
 then
-	echo "Usage: 0-transfer_file PATH_TO_FILE IP USERNAME PATH_TO_SSH_KEY"
+    source_f=$1
+    dest_ip=$2
+    username=$3
+    key_path=$4
+
+    scp -i "$key_path" -o StrictHostKeyChecking=No "$username@$dest_ip" "$source_f" "$HOME/"
+    echo "$key_path $dest_ip $username $source_f"
 else
-	file_path="$1"
-	ip_addr="$2"
-	usr="$3"
-	ssh_key_path="$4"
-	scp -o StrictHostKeyChecking=no -i "$ssh_key_path" "$file_path" "$usr"@"$ip_addr":~/
+    echo "Usage: 0-transfer_file PATH_TO_FILE IP USERNAME PATH_TO_SSH_KEY"
 fi
