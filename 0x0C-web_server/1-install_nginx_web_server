@@ -1,16 +1,9 @@
 #!/usr/bin/env bash
-# Installing Nginx Web Server and Serving HTML page
-
+# Setup NGINX and create file that returns "Hello World"
 apt-get update -y
 
 apt-get install nginx -y
 
-ufw allow 'Nginx HTTP'
+service nginx start
 
-echo "Hello World!" | tee /var/www/html/index.nginx-debian.html
-
-/etc/init.d/nginx reload
-
-apt-get install curl
-
-curl localhost
+echo 'Hello World!' | tee /var/www/html/index.html
