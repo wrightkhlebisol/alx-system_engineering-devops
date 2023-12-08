@@ -1,0 +1,29 @@
+#!/usr/bin/env bash
+# Configure new ubuntu machine for adding header
+apt-get update -y
+apt-get install -y
+
+# Start NGINX
+service nginx start
+
+config_path="/etc/nginx/sites-available/default"
+
+echo "Hello World!" > /var/www/html/index.html
+echo "Ceci n'est pas une page" > /var/www/html/custom_404.html
+
+# Config content
+redirect_block="server_name _;\n\n\tlocation /redirect_me {\n\t\treturn 301 https:\/\/www.youtube.com/watch?v=QH2-TGUlwu4;\n\t}"
+custom_header="server_name _;\n\n\tadd_header X-Served-By \$hostname;\n\n"
+error_directive="server_name _;\n\n\terror_page 404 /custom_404.html;"
+
+# Duplicate config
+cp "$config_path" "/etc/nginx/default.config" 
+
+# Search and replace
+# sed -i "/server_name _;/a $redirect_block" "$file_path"
+sed -i "s|server_name _;|$error_directive|" "$config_path"
+sed -i "s|server_name _;|$redirect_block|" "$config_path"
+sed -i "s|server_name _;|$custom_header|" "$config_path"
+
+nginx -t
+service nginx restart
