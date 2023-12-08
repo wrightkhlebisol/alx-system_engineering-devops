@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Configure new ubuntu machine for adding header
 apt-get update -y
-apt-get install -y
+apt-get install nginx -y
 
 # Start NGINX
 service nginx start
