@@ -3,8 +3,12 @@
 apt-get update -y
 apt-get install nginx -y
 
+service nginx start
+
+echo "Hello World!" | tee /var/www/html/index.html
+
 # Replace config line here
-redirect_block="\tserver_name _;\n\n\tlocation /redirect_me {\n\t\treturn 301 https://www.youtube.com/watch?v=QH2-TGUlwu4;\n\t}"
+redirect_block="\tserver_name _;\n\n\tlocation /redirect_me {\n\t\treturn 301 https:\/\/www.youtube.com/watch?v=QH2-TGUlwu4;\n\t}"
 file_path="/etc/nginx/sites-available/default"
 
 # Duplicate config
