@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+# Create default 404 page
+apt-get update -y
+apt-get install nginx -y
+
+service nginx start
+
+echo "Hello World!" | tee /var/www/html/index.html
+
+#custom 404 page
+echo "Ceci n'est pas une page" > /var/www/html/custom_404.html
+
+# Config content
+redirect_block="server_name _;\n\n\tlocation /redirect_me {\n\t\treturn 301 https:\/\/www.youtube.com/watch?v=QH2-TGUlwu4;\n\t}"
+file_path="/etc/nginx/sites-available/default"
+
+# Duplicate config
+cp "$file_path" "/etc/nginx/default.orig"
+
+# Search and replace
+# sed -i "/server_name _;/a $redirect_block" "$file_path"
+sed -i "s|server_name _;|server_name _;\n\n\terror_page 404 /custom_404.html;|" "$file_path"
+sed -i "s|server_name _;|$redirect_block|" "$file_path"
+
+nginx -t
+service nginx restart
