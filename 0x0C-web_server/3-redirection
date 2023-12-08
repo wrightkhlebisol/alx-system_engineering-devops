@@ -19,4 +19,4 @@ cp "$file_path" "/etc/nginx/default.orig"
 sed -i "s|server_name _;|$redirect_block|" "$file_path"
 
 nginx -t
-nginx -s reload
+service nginx restart
