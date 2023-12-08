@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# Configure a load balancer
+
+# Install HAProxy
+apt-get update -y
+apt-get install haproxy -y
+
+echo "ENABLED=1" | tee /etc/default/haproxy
+
+service haproxy status
+
