@@ -5,6 +5,28 @@
 apt-get update -y
 apt-get install haproxy -y
 
-echo "ENABLED=1" | tee /etc/default/haproxy
+config_dir=/etc/haproxy/haproxy.cfg
+
+echo "ENABLED=1" >> /etc/default/haproxy
 
 service haproxy status
+
+cp $config_dir $config_dir.orig
+
+# Replace mode from http to tcp
+# Replace option httplog to tcplog
+sed -i "s|mode\thttp|mode\ttcp|" $config_dir
+sed -i "s|option\thttplog|option\ttcplog|" $config_dir
+
+# Configure frontend
+printf "\nfrontend\twww\n\tbind\t54.157.164.116:80\n\tdefault_backend\tstatic-backend\n" >> $config_dir
+
+# Configure backend
+printf "\nbackend\tstatic-backend\n\tbalance\troundrobin\n\tmode\ttcp\n\tserver\t385752-web-01\t54.197.83.196:80\tcheck\n\tserver\t385752-web-02\t18.209.223.123:80\tcheck\n" >> $config_dir
+
+# Enable UDP syslog reception
+# echo "\n\$ModLoad\timudp\n\$UDPServerRun\t514\n\$UDPServerAddress\t127.0.0.1" >> /etc/rsyslog.conf
+
+# service rsyslog restart
+
+service haproxy restart
