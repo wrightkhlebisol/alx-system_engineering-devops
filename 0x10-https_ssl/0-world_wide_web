@@ -6,8 +6,8 @@ dig_domain(){
         domain=$1
         subdomain=('www' 'lb-01' 'web-01' 'web-02')
 
-        i=1
-        while [ $i -le ${#subdomain[*]} ]
+        i=0
+        while [ $i -lt ${#subdomain[*]} ]
         do
             #record_type=$(dig "${subdomain[$i]}.$domain" | awk '/ANSWER SECTION/ {getline; print $4}')
             #destination=$(dig "${subdomain[$i]}.$domain" | awk '/ANSWER SECTION/ {getline; print $5}')
@@ -41,3 +41,5 @@ dig_domain(){
 
     fi
 }
+
+dig_domain "$@"
