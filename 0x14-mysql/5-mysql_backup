@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Backup the database
+password=$1
+
+# Dump it
+mysql -p"$password" --all-databases > backup.sql
+
+# Archive it
+tar -czf "$(date '+%d')-$(date '+%m')-$(date '+%Y')".tar.gz backup.sql
