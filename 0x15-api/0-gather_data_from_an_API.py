@@ -31,4 +31,3 @@ if __name__ == "__main__":
 
     for c_task in completed:
         print(f'\t {c_task.get("title")}')
-
