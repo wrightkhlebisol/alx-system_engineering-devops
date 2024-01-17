@@ -2,7 +2,6 @@
 """Query number of subscriptions for a given subreddit."""
 import os
 import requests
-import sys
 
 
 access_token = os.getenv('access_token')
@@ -14,15 +13,17 @@ header = {"Authorization": f"bearer {access_token}",
           "User-Agent": f"{user_agent} {engine} {user_id}"}
 
 
-def number_of_subscribers(subreddit):
+def top_ten(subreddit):
     """Query number of subscribers for subreddit."""
-    url = f"https://oauth.reddit.com/r/{subreddit}/about"
+    url = f"https://oauth.reddit.com/r/{subreddit}/hot?limit=10"
 
     response = requests.get(url, headers=header)
 
     if response:
         r_json = response.json()
+        response_data = r_json.get('data')['children']
 
-        return r_json.get('data')['subscribers']
+        for i in range(len(response_data) - 1):
+            print(response_data[i]['data'].get('title'))
     else:
-        return 0
+        print(None)
