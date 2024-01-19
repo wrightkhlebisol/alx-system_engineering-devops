@@ -24,6 +24,6 @@ def count_words(subreddit, word_list):
         response_data = r_json.get('data')['children']
 
         for i in range(len(response_data) - 1):
-            print(response_data[i]['data'].get('title'))
+            return (response_data[i]['data'].get('title'))
     else:
-        print(None)
+        return (None)

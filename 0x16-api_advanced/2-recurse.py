@@ -15,7 +15,7 @@ header = {"Authorization": f"bearer {access_token}",
 
 def recurse(subreddit, hot_list=[]):
     """Query number of subscribers for subreddit."""
-    url = f"https://oauth.reddit.com/r/{subreddit}/hot?limit=10"
+    url = f"https://oauth.reddit.com/r/{subreddit}/hot?limit=1"
 
     response = requests.get(url, headers=header)
 
@@ -23,7 +23,10 @@ def recurse(subreddit, hot_list=[]):
         r_json = response.json()
         response_data = r_json.get('data')['children']
 
+        return (r_json.get('data')['after'])
+        """
         for i in range(len(response_data) - 1):
             print(response_data[i]['data'].get('title'))
+        """
     else:
-        print(None)
+        return (None)

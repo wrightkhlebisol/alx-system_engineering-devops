@@ -1,0 +1,10 @@
+[META] The future of r/programming
+The "Mom Test" in software development: asking good questions when everyone is lying to you
+How Google solved authorization globally across all its products
+Beware of Crypto Job Scams Targeting Blockchain Developers
+How to run yourself into the ground in tech
+SQLite 3.45 released with JSONB support
+Dynamic Programming is not Black Magic
+Introducing OpenD, a D language fork that is open to your contributions.
+RSA is deceptively simple (and fun)
+Mel, the original Real Programmer described in the famous "Story of Mel", died in 2018. Here's a brief potted life story.
